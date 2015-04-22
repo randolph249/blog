@@ -20,6 +20,15 @@
     <a href="https://github.com/randolph249/blog/tarball/master" class="btn">Download .tar.gz</a>
   </section>
 
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <a href="{{site.baseurl}}{{post.url}}"> {{ post.title }}  </a>
+    <br> {{ post.date | date: "%F" }}
+    <br> {{ post.category }}
+    <br> {{ post.excerpt }} {% endfor %}
+  </ul>
+
   <section class="main-content">
     <h3>
       <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true">
