@@ -1,0 +1,6 @@
+* 打开行号 set number
+* 关闭行号 set nonumber 简写 set nu
+* 进入选择模式V 然后按照hjkl选择 =格式化
+* 移动到开头是gg 移动到句尾是G
+* 复制一行 yy 粘贴 p
+* 设置缩进  set expandtab tabstop=4 shiftwidth=4 softtabstop=4
